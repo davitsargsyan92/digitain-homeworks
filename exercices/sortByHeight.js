@@ -9,8 +9,8 @@
     // sortByHeight(a) = [-1, 150, 160, 170, -1, -1, 180, 190]
 
 
-    function sortByHeight(a) {
-            
+    function sortByHgiteight(a) {
+            console.log("sortByHgiteight")
     }
 
     
