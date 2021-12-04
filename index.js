@@ -11,5 +11,5 @@
 
 
     function sortByHeight(a) {
-        
+        console.log('sortByHeight');
     }
