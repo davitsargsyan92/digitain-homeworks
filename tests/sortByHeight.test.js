@@ -20,4 +20,3 @@ test("list of sorted peoples will be [2, 2, 4, 9, 11, 16]", () => {
 
 
 
-
