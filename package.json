@@ -1,0 +1,22 @@
+{
+  "name": "digitain-homeworks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davitsargsyan92/digitain-homeworks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davitsargsyan92/digitain-homeworks/issues"
+  },
+  "homepage": "https://github.com/davitsargsyan92/digitain-homeworks#readme",
+  "dependencies": {
+    "jest": "^27.4.3"
+  }
+}
