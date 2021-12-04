@@ -10,5 +10,5 @@
 
 
     function sortByHeight(a) {
-        
+        console.log("hello git")
     }
