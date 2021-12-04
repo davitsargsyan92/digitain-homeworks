@@ -10,7 +10,7 @@
 
 
     function sortByHeight(a) {
-            
+      console.log("Heey!")       
     }
 
     
