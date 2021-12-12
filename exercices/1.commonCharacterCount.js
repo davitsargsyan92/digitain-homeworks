@@ -4,5 +4,17 @@
 // solution(s1, s2) = 3.
 
 function getCommonCharactersCount(s1, s2) {
-    console.log("getCommonCharactersCount")
+  let cnt = 0;
+  let str1 = s1.split("");
+  let str2 = s2.split("");
+  for (let i = 0; i < str1.length; i++) {
+    let ind = str2.indexOf(str1[i]);
+    if (ind !== -1) {
+      str2.splice(ind, 1);
+      cnt++;
+    }
+  }
+
+  return cnt;
 }
+console.log(getCommonCharactersCount("sgfhshgj", "fddfhgf"));
