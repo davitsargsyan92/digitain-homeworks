@@ -8,15 +8,24 @@
 // For a = [-1, 150, 190, 170, -1, -1, 160, 180], the output should be
 // sortByHeight(a) = [-1, 150, 160, 170, -1, -1, 180, 190]
 
-
+let arr = [-1, 150, 190, 170, -1, -1, 160, 180]
 function sortByHeight(a) {
-    let people = a.filter((item) => item !== -1);
-    people.sort((a, b) => a - b);
-    a.forEach((element, index) => {
-        if (element !== -1) {
-            a.splice(index, 1, people.shift())
-        }
-    });
-    return a
+let people = a.filter((el) => el !== -1);
+people.sort((a, b) => b - a);
+for(let i = 0; i < a.length; i++){
+    if(a[i] !== -1){
+        a[i] = people.pop()
+    }
 }
-console.log(sortByHeight([-1, 150, 190, 170, -1, -1, 160, 180]))
+   return a
+}
+
+sortByHeight(arr)
+
+
+
+
+
+
+
+
