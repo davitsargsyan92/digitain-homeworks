@@ -24,15 +24,13 @@
 
 
 function diagonalDifference(arr) {
-    let n = arr[0].length;
-    let sum  = 0;
-    for(let i = 0 ; i < arr.length ; i++){
-        let i1 = arr[i].length - n;
-        let i2 = n - 1;
-        sum += arr[i][i1] - arr[i][i2];
-        n--;
+    let leftDiagonal = 0;
+    let rightDiagonal = 0;
+    for (let i = 0, j = 0; i < arr.length; i++, j++){
+            leftDiagonal  += arr[i][j];
+            rightDiagonal += arr[i][arr.length-1-j]; 
     }
-    return Math.abs(sum)
+    return (Math.abs(leftDiagonal - rightDiagonal));
 }
 
-module.exports = diagonalDifference;
+module.exports = diagonalDifference
