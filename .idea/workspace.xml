@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="17a4cefe-4d90-411b-b8a0-f16270c7a287" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercices/3.minMaxSum.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercices/3.minMaxSum.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DownTown Academy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -49,6 +48,8 @@
       <workItem from="1639163234908" duration="1370000" />
       <workItem from="1639318361170" duration="595000" />
       <workItem from="1639573789361" duration="1028000" />
+      <workItem from="1639828841776" duration="331000" />
+      <workItem from="1640028618938" duration="72000" />
     </task>
     <servers />
   </component>

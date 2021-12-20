@@ -11,6 +11,6 @@ function minMaxSum(arr){
     let max = Math.max(...arr);
     let min = Math.min(...arr);
     let maxSum = arr.reduce((sum, val) => sum + val) - max;
-    let minSum = arr.reduce((sum, val) => sum + val) - min;
+    let minSum = maxSum + max - min;
     console.log(`maxSum ${maxSum} minSum ${minSum}`)
 }
