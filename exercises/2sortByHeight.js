@@ -11,13 +11,24 @@
 
 
 function sortByHeight(a) {
-    let people = a.filter((item) => item !== -1);
-    people.sort((a, b) => a - b);
-    a.forEach((element, index) => {
-        if (element !== -1) {
-            a.splice(index, 1, people.shift())
+    for(let j = 0 ; j < a.length ; j++){
+        if(a[j] === -1){
+            continue
+        } else{
+            for(let i = 0 ; i < a.length; i++){
+                if(a[i] === -1){
+                    continue
+                } else{
+                    if(a[i] > a[j]){
+                        let temp = null;
+                        temp = a[j]
+                        a[j] = a[i]
+                        a[i] = temp
+                    }
+                }
+            }
         }
-    });
+    }
     return a
 }
 module.exports = sortByHeight;
