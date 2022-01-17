@@ -11,6 +11,16 @@
 
 
 function sortByHeight(a) {
+    let onlyHeightsSorted = (a.filter(element => element > -1)).sort((a, b) => a-b)
 
+    for(let i = 0; i < array.length; i++){
+        if(array[i] == -1){
+          onlyHeightsSorted.splice(i, 0, array[i])
+        }
+      }
+      return onlyHeightsSorted
 }
+
+console.log(sortByHeight(a))
+
 module.exports = sortByHeight;
