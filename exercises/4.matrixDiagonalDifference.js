@@ -24,15 +24,7 @@
 
 
 function diagonalDifference(arr) {
-    let n = arr[0].length;
-    let sum  = 0;
-    for(let i = 0 ; i < arr.length ; i++){
-        let i1 = arr[i].length - n;
-        let i2 = n - 1;
-        sum += arr[i][i1] - arr[i][i2];
-        n--;
-    }
-    return Math.abs(sum)
+
 }
 
 module.exports = diagonalDifference;
