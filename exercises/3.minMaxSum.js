@@ -8,5 +8,14 @@
 
 
 function minMaxSum(arr){
+    let total = arr.reduce((previousValue, currentValue) => previousValue + currentValue, 0);
+    let minSum = total - Math.max(...arr) 
+    let maxSum = total - Math.min(...arr);
+    
+    console.log([minSum, maxSum])
 
 }
+
+let arr  = [1,3,5,7];
+
+minMaxSum(arr)
