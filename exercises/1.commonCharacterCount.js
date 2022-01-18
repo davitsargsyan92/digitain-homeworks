@@ -4,5 +4,5 @@
 // solution(s1, s2) = 3.
 
 function getCommonCharactersCount(s1, s2) {
-    console.log("getCommonCharactersCount")
+    
 }
